@@ -17,5 +17,6 @@ public class Application {
         HerService herService = context.getBean(HerService.class);
         System.out.println(herService);
         System.out.println("second---");
+        System.out.println("666");
     }
 }
