@@ -16,5 +16,6 @@ public class Application {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ServiceConfig.class);
         HerService herService = context.getBean(HerService.class);
         System.out.println(herService);
+        System.out.println("second");
     }
 }
